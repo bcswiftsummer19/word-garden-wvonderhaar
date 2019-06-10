@@ -32,9 +32,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="8qt-fG-KfX">
-                                <rect key="frame" x="108" y="181" width="187" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="8qt-fG-KfX">
+                                <rect key="frame" x="94" y="181" width="187" height="30"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jL2-5N-x8P">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
@@ -84,6 +83,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4kP-rk-x7y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="137" id="IKJ-la-ucZ"/>
+                            <constraint firstItem="8qt-fG-KfX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XVE-4e-LSB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

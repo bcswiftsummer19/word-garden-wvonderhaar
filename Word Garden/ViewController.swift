@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var guessLetterButton: UIButton!
     @IBOutlet weak var playAgainButton: UIButton!
     @IBOutlet weak var flowerImageView: UIImageView!
-    var wordToGuess = "CODE"
+    var wordToGuess = "WALKER"
     var lettersGuessed = ""
     let maxNumberOfWrongGuesses = 8
     var wrongGuessesRemaining = 8
